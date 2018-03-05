@@ -2,11 +2,6 @@
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
-}
-
 .App-header {
   background-color: #222;
   height: 110px;
@@ -63,4 +58,17 @@
 
 .widget-title {
   width: 7%;
+}
+
+.form-creation {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  line-height: 1.6em;
+  align-items: flex-start;
+}
+
+.form-creation-container {
+  display: flex;
+  justify-content: center;
 }
