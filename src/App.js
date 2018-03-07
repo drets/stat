@@ -45,7 +45,7 @@ class App extends Component<*, State> {
         return (
             <div className="App">
                 <header className="App-header">
-                    <h1 className="App-title">The great thing in this world is not so much where you stand, as in what direction you are moving.</h1>
+                    <h1 className="App-title">If you plant the right seed in the right spot, it will grow without further coaxing.</h1>
                 </header>
                 <br />
                 {this.state.meta.map(i => (<Widget {...i} key={i.title} />))}
